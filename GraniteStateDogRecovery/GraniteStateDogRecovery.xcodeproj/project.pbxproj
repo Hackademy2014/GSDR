@@ -18,6 +18,7 @@
 		3B5545C41917E40B00394FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B5545C21917E40B00394FC1 /* InfoPlist.strings */; };
 		3B5545C61917E40B00394FC1 /* GraniteStateDogRecoveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5545C51917E40B00394FC1 /* GraniteStateDogRecoveryTests.m */; };
 		F5A48EDB1923ED6D004F608D /* LostDogFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */; };
+		F5A48EDF19240C4C004F608D /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EDE19240C4C004F608D /* dog.png */; };
 		F5D6BEB919189E03004444D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6BEB819189E03004444D3 /* main.m */; };
 		F5D6BEBE19189EB6004444D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D6BEBC19189EB6004444D3 /* InfoPlist.strings */; };
 		F5D6BEC21918A143004444D3 /* GSDRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6BEC11918A143004444D3 /* GSDRMainViewController.m */; };
@@ -59,6 +60,7 @@
 		3B5545C51917E40B00394FC1 /* GraniteStateDogRecoveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraniteStateDogRecoveryTests.m; sourceTree = "<group>"; };
 		F5A48ED91923ED6D004F608D /* LostDogFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostDogFormViewController.h; sourceTree = "<group>"; };
 		F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostDogFormViewController.m; sourceTree = "<group>"; };
+		F5A48EDE19240C4C004F608D /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = GraniteStateDogRecovery/images/dog.png; sourceTree = "<group>"; };
 		F5D6BEB819189E03004444D3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5D6BEBA19189EA1004444D3 /* GraniteStateDogRecovery-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GraniteStateDogRecovery-Info.plist"; sourceTree = "<group>"; };
 		F5D6BEBD19189EB6004444D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		F5F36FB51923931A005B9BC6 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F5A48EDE19240C4C004F608D /* dog.png */,
 				F5F36FC61923D930005B9BC6 /* YouTube_29x29.png */,
 				F5F36FC71923D930005B9BC6 /* YouTube_29x29@2x.png */,
 				F5F36FC21923D738005B9BC6 /* Twitter_29x29.png */,
@@ -287,6 +290,7 @@
 				3B5545B31917E40B00394FC1 /* Images.xcassets in Resources */,
 				F5F36FC41923D738005B9BC6 /* Twitter_29x29.png in Resources */,
 				F5F36FC81923D930005B9BC6 /* YouTube_29x29.png in Resources */,
+				F5A48EDF19240C4C004F608D /* dog.png in Resources */,
 				F5F36FC11923CCF7005B9BC6 /* Facebook_29x29@2x.png in Resources */,
 				F5D6BEBE19189EB6004444D3 /* InfoPlist.strings in Resources */,
 				F5F36FBA19239350005B9BC6 /* banner.jpg in Resources */,
