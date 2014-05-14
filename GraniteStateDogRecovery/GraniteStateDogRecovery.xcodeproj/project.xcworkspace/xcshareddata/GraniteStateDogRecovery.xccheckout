@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EEF53A7D-4244-417C-914D-BB0BB50C7917</string>
+	<string>CDACDFFB-9607-4029-BB28-A66057121DF6</string>
 	<key>IDESourceControlProjectName</key>
 	<string>GraniteStateDogRecovery</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>E7A294D2-B274-48C9-A144-75C23EE90273</key>
-		<string>ssh://github.com/christinegraham/hackademy_demo_app_2014</string>
+		<key>02113F39-F46C-43AE-9C6E-A24A99F24202</key>
+		<string>ssh://github.com/dyninc/hackademy_demo_app_2014.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>GraniteStateDogRecovery/GraniteStateDogRecovery.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>E7A294D2-B274-48C9-A144-75C23EE90273</key>
+		<key>02113F39-F46C-43AE-9C6E-A24A99F24202</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/christinegraham/hackademy_demo_app_2014</string>
+	<string>ssh://github.com/dyninc/hackademy_demo_app_2014.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>E7A294D2-B274-48C9-A144-75C23EE90273</string>
+	<string>02113F39-F46C-43AE-9C6E-A24A99F24202</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>E7A294D2-B274-48C9-A144-75C23EE90273</string>
+			<string>02113F39-F46C-43AE-9C6E-A24A99F24202</string>
 			<key>IDESourceControlWCCName</key>
 			<string>hackademy_demo_app_2014</string>
 		</dict>
