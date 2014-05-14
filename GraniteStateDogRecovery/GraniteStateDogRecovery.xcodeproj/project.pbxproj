@@ -21,6 +21,8 @@
 		F5D6BEBE19189EB6004444D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D6BEBC19189EB6004444D3 /* InfoPlist.strings */; };
 		F5D6BEC21918A143004444D3 /* GSDRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6BEC11918A143004444D3 /* GSDRMainViewController.m */; };
 		F5D6BEC31918A1E2004444D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5545A91917E40B00394FC1 /* Main.storyboard */; };
+		F5F36FB919239350005B9BC6 /* banner@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F36FB719239350005B9BC6 /* banner@2x.jpg */; };
+		F5F36FBA19239350005B9BC6 /* banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5F36FB819239350005B9BC6 /* banner.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		F5D6BEBF19189F05004444D3 /* GraniteStateDogRecovery-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GraniteStateDogRecovery-Prefix.pch"; sourceTree = "<group>"; };
 		F5D6BEC01918A143004444D3 /* GSDRMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDRMainViewController.h; sourceTree = "<group>"; };
 		F5D6BEC11918A143004444D3 /* GSDRMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDRMainViewController.m; sourceTree = "<group>"; };
+		F5F36FB719239350005B9BC6 /* banner@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "banner@2x.jpg"; path = "GraniteStateDogRecovery/images/banner@2x.jpg"; sourceTree = "<group>"; };
+		F5F36FB819239350005B9BC6 /* banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = banner.jpg; path = GraniteStateDogRecovery/images/banner.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 			children = (
 				3B55459D1917E40B00394FC1 /* GraniteStateDogRecovery */,
 				3B5545BF1917E40B00394FC1 /* GraniteStateDogRecoveryTests */,
+				F5F36FB619239329005B9BC6 /* Resources */,
 				3B5545961917E40B00394FC1 /* Frameworks */,
 				3B5545951917E40B00394FC1 /* Products */,
 			);
@@ -150,6 +155,23 @@
 				3B5545C21917E40B00394FC1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5F36FB51923931A005B9BC6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F5F36FB719239350005B9BC6 /* banner@2x.jpg */,
+				F5F36FB819239350005B9BC6 /* banner.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F5F36FB619239329005B9BC6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5F36FB51923931A005B9BC6 /* images */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5F36FB919239350005B9BC6 /* banner@2x.jpg in Resources */,
 				F5D6BEC31918A1E2004444D3 /* Main.storyboard in Resources */,
 				3B5545B31917E40B00394FC1 /* Images.xcassets in Resources */,
 				F5D6BEBE19189EB6004444D3 /* InfoPlist.strings in Resources */,
+				F5F36FBA19239350005B9BC6 /* banner.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
