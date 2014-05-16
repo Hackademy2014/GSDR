@@ -80,7 +80,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsI-no-S03">
-                                <rect key="frame" x="0.0" y="305" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="248" width="320" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -91,8 +91,32 @@
                                     <segue destination="GQ0-qz-dfK" kind="push" id="qes-7Y-coE"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oiV-zQ-F1V">
+                                <rect key="frame" x="0.0" y="311" width="320" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Found Dog Report">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FME-Pl-i9f" kind="push" id="z3w-Sb-bl3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CU0-Pe-0Xl">
+                                <rect key="frame" x="0.0" y="374" width="320" height="54"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Lost Dog Photos">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="fFo-lB-Bti" kind="push" id="kFR-7f-MCB"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-3a-iIJ">
-                                <rect key="frame" x="0.0" y="376" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="437" width="320" height="54"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
@@ -104,13 +128,13 @@
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It takes a Village to bring a lost dog home!  Together we can bring them back." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="261" translatesAutoresizingMaskIntoConstraints="NO" id="dt6-94-Q7R">
-                                <rect key="frame" x="30" y="201" width="261" height="81"/>
+                                <rect key="frame" x="30" y="165" width="261" height="81"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="dog.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUd-CO-wAA">
-                                <rect key="frame" x="51" y="-1" width="219" height="215"/>
+                                <rect key="frame" x="62" y="-5" width="197" height="193"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -125,10 +149,10 @@
             </objects>
             <point key="canvasLocation" x="515" y="-19"/>
         </scene>
-        <!--Lost Dog Report VC Scene-->
+        <!--Lost Dog Report VC-->
         <scene sceneID="PIz-ed-Yj9">
             <objects>
-                <viewController id="GQ0-qz-dfK" userLabel="Lost Dog Report VC Scene" customClass="LostDogFormViewController" sceneMemberID="viewController">
+                <viewController id="GQ0-qz-dfK" userLabel="Lost Dog Report VC" customClass="LostDogFormViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="lab-Vk-2ST"/>
                         <viewControllerLayoutGuide type="bottom" id="wUl-iQ-CB7"/>
@@ -150,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYy-Sa-Ury" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="-335"/>
+            <point key="canvasLocation" x="1055" y="-409"/>
         </scene>
         <!--About Us VC-->
         <scene sceneID="5C9-ex-4Sv">
@@ -385,7 +409,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cTs-4Y-Kro" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1055" y="312"/>
+            <point key="canvasLocation" x="1055" y="310"/>
         </scene>
         <!--Preventative Measures VC-->
         <scene sceneID="wXe-Vm-ea7">
@@ -504,6 +528,60 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Csz-UD-FNh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-578" y="-19"/>
+        </scene>
+        <!--Found Dog Report VC-->
+        <scene sceneID="c02-Nt-d9v">
+            <objects>
+                <viewController id="FME-Pl-i9f" userLabel="Found Dog Report VC" customClass="FoundDogFormViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="JGv-nv-AF9"/>
+                        <viewControllerLayoutGuide type="bottom" id="vf8-Xw-iL4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Mkg-qh-DEq" customClass="UIWebView">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="delegate" destination="FME-Pl-i9f" id="EAj-Uq-jhO"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Found Dog Report" id="0sM-cu-i5G">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="L3Y-Db-S54"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="Mkg-qh-DEq" id="KQP-8m-yMy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Hh-9Y-xoB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1435" y="-409"/>
+        </scene>
+        <!--Lost Dog Photos-->
+        <scene sceneID="fNJ-tu-j3s">
+            <objects>
+                <viewController id="fFo-lB-Bti" userLabel="Lost Dog Photos" customClass="LostDogPhotosViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="3hu-Yc-bKN"/>
+                        <viewControllerLayoutGuide type="bottom" id="FlE-SH-IKJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tYL-cL-b4r" customClass="UIWebView">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="delegate" destination="fFo-lB-Bti" id="dIU-DC-7bp"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lost Dog Photos" id="fUc-AT-WKp">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="ACY-X4-cxG"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="webView" destination="tYL-cL-b4r" id="ccz-jL-KUc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9R1-qC-tPy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1435" y="310"/>
         </scene>
     </scenes>
     <resources>

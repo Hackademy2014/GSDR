@@ -20,6 +20,8 @@
 		3B979E12192402DC000BB389 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B979E11192402DC000BB389 /* MobileCoreServices.framework */; };
 		3BEE45151923F04500C59254 /* GSDRPreventativeMeasuresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */; };
 		F580CAB71925A21300FF3309 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F580CAB61925A21300FF3309 /* PlaceAnnotation.m */; };
+		F580CABA1925A9AE00FF3309 /* FoundDogFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F580CAB91925A9AE00FF3309 /* FoundDogFormViewController.m */; };
+		F580CABD1925ACEF00FF3309 /* LostDogPhotosViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F580CABC1925ACEF00FF3309 /* LostDogPhotosViewController.m */; };
 		F5A48EDB1923ED6D004F608D /* LostDogFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */; };
 		F5A48EDF19240C4C004F608D /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EDE19240C4C004F608D /* dog.png */; };
 		F5A48EEA192420C8004F608D /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EE7192420C8004F608D /* icon_58.png */; };
@@ -71,6 +73,10 @@
 		3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDRPreventativeMeasuresViewController.m; sourceTree = "<group>"; };
 		F580CAB51925A21300FF3309 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
 		F580CAB61925A21300FF3309 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
+		F580CAB81925A9AE00FF3309 /* FoundDogFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoundDogFormViewController.h; sourceTree = "<group>"; };
+		F580CAB91925A9AE00FF3309 /* FoundDogFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoundDogFormViewController.m; sourceTree = "<group>"; };
+		F580CABB1925ACEF00FF3309 /* LostDogPhotosViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostDogPhotosViewController.h; sourceTree = "<group>"; };
+		F580CABC1925ACEF00FF3309 /* LostDogPhotosViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostDogPhotosViewController.m; sourceTree = "<group>"; };
 		F5A48ED91923ED6D004F608D /* LostDogFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostDogFormViewController.h; sourceTree = "<group>"; };
 		F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostDogFormViewController.m; sourceTree = "<group>"; };
 		F5A48EDE19240C4C004F608D /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = GraniteStateDogRecovery/images/dog.png; sourceTree = "<group>"; };
@@ -168,6 +174,10 @@
 				3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */,
 				F5A48ED91923ED6D004F608D /* LostDogFormViewController.h */,
 				F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */,
+				F580CAB81925A9AE00FF3309 /* FoundDogFormViewController.h */,
+				F580CAB91925A9AE00FF3309 /* FoundDogFormViewController.m */,
+				F580CABB1925ACEF00FF3309 /* LostDogPhotosViewController.h */,
+				F580CABC1925ACEF00FF3309 /* LostDogPhotosViewController.m */,
 				F5F36FBB1923B8C9005B9BC6 /* AboutUsViewController.h */,
 				F5F36FBC1923B8C9005B9BC6 /* AboutUsViewController.m */,
 				F5A48EF219250FFD004F608D /* MapLocationsViewController.h */,
@@ -368,6 +378,8 @@
 				F5D6BEC21918A143004444D3 /* GSDRMainViewController.m in Sources */,
 				F580CAB71925A21300FF3309 /* PlaceAnnotation.m in Sources */,
 				F5A48EF419250FFD004F608D /* MapLocationsViewController.m in Sources */,
+				F580CABD1925ACEF00FF3309 /* LostDogPhotosViewController.m in Sources */,
+				F580CABA1925A9AE00FF3309 /* FoundDogFormViewController.m in Sources */,
 				F5A48EDB1923ED6D004F608D /* LostDogFormViewController.m in Sources */,
 				3BEE45151923F04500C59254 /* GSDRPreventativeMeasuresViewController.m in Sources */,
 			);
