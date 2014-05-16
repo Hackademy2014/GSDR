@@ -14,18 +14,6 @@
 
 @implementation AboutUsViewController
 
-@synthesize websiteButton;
-@synthesize facebookButton;
-@synthesize twitterButton;
-@synthesize youTubeButton;
-@synthesize phoneButton;
-@synthesize emailButton;
-@synthesize loriButton;
-@synthesize hollyButton;
-@synthesize amyButton;
-@synthesize susanKButton;
-@synthesize bethButton;
-@synthesize susanPButton;
 
 #pragma mark - Generated Methods
 
@@ -63,73 +51,45 @@
 }
 
 /**
- *  Opens the default browser with the Granite State Dog Recovery Facebook Page. Due to the Facebook behavior, if the user has Facebook installed, it may ask to open the facebook app.
+ *  Opens the default browser with the Granite State Dog Recovery Facebook Page. Due to Facebook behavior, if the user has Facebook installed, it may ask to open the Facebook app.
  */
 - (IBAction)openFacebook {
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.facebook.com/granitestatedogrecovery"]];
 }
 
+/**
+ *  Opens the default browser with the Granite State Dog Recovery Twitter Page. Due to Twitter behavior, if the user has Twitter installed, it may ask to open the Twitter app.
+ */
 - (IBAction)openTwitter{
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.twitter.com/GSdogrecovery"]];
 }
 
+/**
+ *  Opens the default browser with the Granite State Dog Recovery YouTube Channel. Due to YouTube behavior, if the user has YouTube installed, it may ask to open the YouTube app.
+ */
 - (IBAction)openYouTube{
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.youtube.com/GSdogrecovery"]];
         
 }
 
+/**
+ *  When clicked, the phone will start calling the phone number listed.
+ */
 - (IBAction)callPhone
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://18556395678"]];
 }
 
 
+/**
+ *  When clicked, the mail app will open with the to: field pre-filled with the email address below.
+ */
 - (IBAction)emailNonProfit
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://Lost@granitestatedogrecovery.com"]];
 }
 
-
-- (IBAction)aboutLori
-{
-    
-}
-
-
-- (IBAction)aboutHolly
-{
-    
-}
-
-
-- (IBAction)aboutAmy
-{
-    
-}
-
-
-- (IBAction)aboutSusanK
-{
-    
-}
-
-
-- (IBAction)aboutBeth
-{
-    
-}
-
-
-- (IBAction)aboutSusanP
-{
-    
-}
-
-
-#pragma mark - Helper Methods
-
-
-
+/*
 #pragma mark - Navigation
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
@@ -138,20 +98,6 @@
     // Get the new view controller using [segue destinationViewController].
     // Pass the selected object to the new view controller.
 }
-
-//- (void)flipsideViewControllerDidFinish:(NetticaFlipsideViewController *)controller
-//{
-    //show new flash card
-//    [self showCard];
-    
-//    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        
-//        [self dismissViewControllerAnimated:YES completion:nil];
-//    } else {
-//        [self.flipsidePopoverController dismissPopoverAnimated:YES];
-//        self.flipsidePopoverController = nil;
-//    }
-//}
-
+*/
 
 @end

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUV-4e-YI1">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="IUV-4e-YI1">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -13,11 +13,11 @@
                         <viewControllerLayoutGuide type="bottom" id="Xtd-Oz-uRg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qZO-tZ-2CN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZSJ-E9-D3y">
-                                <rect key="frame" x="0.0" y="263" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="228" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313725490198" blue="0.44313725490196076" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -29,7 +29,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykf-bb-Reh">
-                                <rect key="frame" x="0.0" y="343" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="313" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -42,7 +42,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SSR-zb-BVx">
-                                <rect key="frame" x="0.0" y="421" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="396" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -54,18 +54,6 @@
                                     <segue destination="9fO-3p-snN" kind="push" identifier="AboutUsViewController" id="LfZ-d4-CW3"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Granite State Dog Recovery" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="vmA-wD-nCG">
-                                <rect key="frame" x="0.0" y="191" width="320" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Dedicated to Reuniting Lost Pets with their Families" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="320" translatesAutoresizingMaskIntoConstraints="NO" id="RvR-Qm-eCP">
-                                <rect key="frame" x="0.0" y="222" width="320" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="banner.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="F74-Wz-2T9">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="183"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -73,8 +61,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96078431372549022" green="0.50980392156862742" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" id="u89-1d-VId"/>
-                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationItem key="navigationItem" title="Granite State Dog Recovery" id="u89-1d-VId"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lX6-fs-gap" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -93,7 +80,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lsI-no-S03">
-                                <rect key="frame" x="0.0" y="290" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="305" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -105,22 +92,16 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yhc-3a-iIJ">
-                                <rect key="frame" x="0.0" y="356" width="320" height="58"/>
+                                <rect key="frame" x="0.0" y="376" width="320" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Map Recovery Locations">
                                     <color key="titleColor" red="0.96078431369999995" green="0.50980392159999999" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvb-AD-bOd">
-                                <rect key="frame" x="0.0" y="422" width="320" height="58"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="1" green="0.80784313730000001" blue="0.4431372549" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                <state key="normal" title="List Recovery Locations">
-                                    <color key="titleColor" red="0.96078431369999995" green="0.50980392159999999" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                                <connections>
+                                    <segue destination="Ybb-y9-Xrk" kind="push" id="HuC-gB-E9a"/>
+                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="It takes a Village to bring a lost dog home!  Together we can bring them back." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="261" translatesAutoresizingMaskIntoConstraints="NO" id="dt6-94-Q7R">
                                 <rect key="frame" x="30" y="201" width="261" height="81"/>
@@ -169,7 +150,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tYy-Sa-Ury" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="915" y="-19"/>
+            <point key="canvasLocation" x="1055" y="-335"/>
         </scene>
         <!--About Us VC-->
         <scene sceneID="5C9-ex-4Sv">
@@ -350,18 +331,61 @@
                     </navigationItem>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <connections>
-                        <outlet property="emailButton" destination="Wf2-tW-Tjh" id="bC0-FH-ath"/>
-                        <outlet property="facebookButton" destination="zF7-Lm-vcx" id="g5E-GE-LJ4"/>
-                        <outlet property="phoneButton" destination="AEC-j3-8er" id="GBu-wi-s42"/>
-                        <outlet property="twitterButton" destination="unV-sM-acF" id="fmI-FZ-VDp"/>
                         <outlet property="view" destination="P9d-3y-zat" id="qTo-Mv-BLm"/>
-                        <outlet property="websiteButton" destination="kNp-1B-vns" id="WFl-R5-xkt"/>
-                        <outlet property="youTubeButton" destination="qpC-QA-qzz" id="buh-km-9Q3"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qpz-NM-MXl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="515" y="682"/>
+        </scene>
+        <!--Map Locations-->
+        <scene sceneID="3zM-8G-Rk8">
+            <objects>
+                <viewController id="Ybb-y9-Xrk" userLabel="Map Locations" customClass="MapLocationsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rst-LT-dHL"/>
+                        <viewControllerLayoutGuide type="bottom" id="REa-KB-4m4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Uvt-tf-gDA">
+                        <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Kdz-a4-yga">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                            </mapView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="bar" translatesAutoresizingMaskIntoConstraints="NO" id="QY3-3M-rCj">
+                                <rect key="frame" x="0.0" y="468" width="320" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <segments>
+                                    <segment title="Humane Society"/>
+                                    <segment title="Animal Shelter"/>
+                                    <segment title="Vet"/>
+                                </segments>
+                                <connections>
+                                    <action selector="searchTermCtrlClicked:" destination="cTs-4Y-Kro" eventType="valueChanged" id="UlI-LE-MrZ"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Map Locations" id="GdQ-bK-0Eo">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="KFM-r3-vIT"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="YEV-Re-zj8">
+                            <connections>
+                                <action selector="refreshButtonClicked:" destination="Ybb-y9-Xrk" id="XO8-vG-boc"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="mapView" destination="Kdz-a4-yga" id="RS4-Hd-f6R"/>
+                        <outlet property="refreshButton" destination="YEV-Re-zj8" id="wcJ-Ur-bg3"/>
+                        <outlet property="searchTermCtrl" destination="QY3-3M-rCj" id="TIR-ae-fes"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cTs-4Y-Kro" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055" y="312"/>
         </scene>
         <!--Preventative Measures VC-->
         <scene sceneID="wXe-Vm-ea7">

@@ -29,10 +29,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
+    // Since our ViewController is also acting as a UIWebViewDelegate, we need to set the webView delegate to be the view controller.
     self.webView.delegate = self;
     
+    // Set the url of our webview for when the page loads
     NSURL *url = [NSURL URLWithString:@"http://m.granitestatedogrecovery.com/Lost-Dog-Report.html"];
     NSURLRequest *requestURL = [NSURLRequest requestWithURL:url];
     [self.webView loadRequest:requestURL];
@@ -58,11 +59,16 @@
 
 - (void)webViewDidFinishLoad:(UIWebView *)webView
 {
+    // Hide the network activity indicator
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
     
+    // Wait 1/10 of a second to scroll the page, otherwise it will bounce back to the top
     loadTimer = [NSTimer scheduledTimerWithTimeInterval:0.1 target:self selector:@selector(scrollPage) userInfo:nil repeats:NO];
 }
 
+/**
+ *  Scroll the web page to the top of the form, ignoring the logo and title information
+ */
 - (void)scrollPage
 {
     [self.webView.scrollView scrollRectToVisible:CGRectMake(0, self.webView.bounds.size.height + 300, 1, 1) animated:YES];

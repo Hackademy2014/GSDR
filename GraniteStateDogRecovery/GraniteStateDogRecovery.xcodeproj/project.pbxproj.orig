@@ -17,16 +17,9 @@
 		3B5545BC1917E40B00394FC1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B55459B1917E40B00394FC1 /* UIKit.framework */; };
 		3B5545C41917E40B00394FC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B5545C21917E40B00394FC1 /* InfoPlist.strings */; };
 		3B5545C61917E40B00394FC1 /* GraniteStateDogRecoveryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5545C51917E40B00394FC1 /* GraniteStateDogRecoveryTests.m */; };
+		F5A48EDB1923ED6D004F608D /* LostDogFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */; };
 		3B979E12192402DC000BB389 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B979E11192402DC000BB389 /* MobileCoreServices.framework */; };
 		3BEE45151923F04500C59254 /* GSDRPreventativeMeasuresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */; };
-		F580CAB71925A21300FF3309 /* PlaceAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F580CAB61925A21300FF3309 /* PlaceAnnotation.m */; };
-		F5A48EDB1923ED6D004F608D /* LostDogFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */; };
-		F5A48EDF19240C4C004F608D /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EDE19240C4C004F608D /* dog.png */; };
-		F5A48EEA192420C8004F608D /* icon_58.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EE7192420C8004F608D /* icon_58.png */; };
-		F5A48EEB192420C8004F608D /* icon_80.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EE8192420C8004F608D /* icon_80.png */; };
-		F5A48EEC192420C8004F608D /* icon_120.png in Resources */ = {isa = PBXBuildFile; fileRef = F5A48EE9192420C8004F608D /* icon_120.png */; };
-		F5A48EEE19242143004F608D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5A48EED19242143004F608D /* MapKit.framework */; };
-		F5A48EF419250FFD004F608D /* MapLocationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5A48EF319250FFD004F608D /* MapLocationsViewController.m */; };
 		F5D6BEB919189E03004444D3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6BEB819189E03004444D3 /* main.m */; };
 		F5D6BEBE19189EB6004444D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F5D6BEBC19189EB6004444D3 /* InfoPlist.strings */; };
 		F5D6BEC21918A143004444D3 /* GSDRMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5D6BEC11918A143004444D3 /* GSDRMainViewController.m */; };
@@ -66,20 +59,11 @@
 		3B5545C11917E40B00394FC1 /* GraniteStateDogRecoveryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GraniteStateDogRecoveryTests-Info.plist"; sourceTree = "<group>"; };
 		3B5545C31917E40B00394FC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B5545C51917E40B00394FC1 /* GraniteStateDogRecoveryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GraniteStateDogRecoveryTests.m; sourceTree = "<group>"; };
+		F5A48ED91923ED6D004F608D /* LostDogFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostDogFormViewController.h; sourceTree = "<group>"; };
+		F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostDogFormViewController.m; sourceTree = "<group>"; };
 		3B979E11192402DC000BB389 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		3BEE45131923F04500C59254 /* GSDRPreventativeMeasuresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSDRPreventativeMeasuresViewController.h; sourceTree = "<group>"; };
 		3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSDRPreventativeMeasuresViewController.m; sourceTree = "<group>"; };
-		F580CAB51925A21300FF3309 /* PlaceAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceAnnotation.h; sourceTree = "<group>"; };
-		F580CAB61925A21300FF3309 /* PlaceAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceAnnotation.m; sourceTree = "<group>"; };
-		F5A48ED91923ED6D004F608D /* LostDogFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LostDogFormViewController.h; sourceTree = "<group>"; };
-		F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LostDogFormViewController.m; sourceTree = "<group>"; };
-		F5A48EDE19240C4C004F608D /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dog.png; path = GraniteStateDogRecovery/images/dog.png; sourceTree = "<group>"; };
-		F5A48EE7192420C8004F608D /* icon_58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_58.png; path = GraniteStateDogRecovery/images/icon_58.png; sourceTree = "<group>"; };
-		F5A48EE8192420C8004F608D /* icon_80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_80.png; path = GraniteStateDogRecovery/images/icon_80.png; sourceTree = "<group>"; };
-		F5A48EE9192420C8004F608D /* icon_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_120.png; path = GraniteStateDogRecovery/images/icon_120.png; sourceTree = "<group>"; };
-		F5A48EED19242143004F608D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		F5A48EF219250FFD004F608D /* MapLocationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapLocationsViewController.h; sourceTree = "<group>"; };
-		F5A48EF319250FFD004F608D /* MapLocationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapLocationsViewController.m; sourceTree = "<group>"; };
 		F5D6BEB819189E03004444D3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F5D6BEBA19189EA1004444D3 /* GraniteStateDogRecovery-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GraniteStateDogRecovery-Info.plist"; sourceTree = "<group>"; };
 		F5D6BEBD19189EB6004444D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -105,7 +89,6 @@
 			files = (
 				3B979E12192402DC000BB389 /* MobileCoreServices.framework in Frameworks */,
 				3B55459A1917E40B00394FC1 /* CoreGraphics.framework in Frameworks */,
-				F5A48EEE19242143004F608D /* MapKit.framework in Frameworks */,
 				3B55459C1917E40B00394FC1 /* UIKit.framework in Frameworks */,
 				3B5545981917E40B00394FC1 /* Foundation.framework in Frameworks */,
 			);
@@ -147,7 +130,6 @@
 		3B5545961917E40B00394FC1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F5A48EED19242143004F608D /* MapKit.framework */,
 				3B979E11192402DC000BB389 /* MobileCoreServices.framework */,
 				3B5545971917E40B00394FC1 /* Foundation.framework */,
 				3B5545991917E40B00394FC1 /* CoreGraphics.framework */,
@@ -164,16 +146,12 @@
 				3B5545A71917E40B00394FC1 /* GSDRAppDelegate.m */,
 				F5D6BEC01918A143004444D3 /* GSDRMainViewController.h */,
 				F5D6BEC11918A143004444D3 /* GSDRMainViewController.m */,
-				3BEE45131923F04500C59254 /* GSDRPreventativeMeasuresViewController.h */,
-				3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */,
 				F5A48ED91923ED6D004F608D /* LostDogFormViewController.h */,
 				F5A48EDA1923ED6D004F608D /* LostDogFormViewController.m */,
 				F5F36FBB1923B8C9005B9BC6 /* AboutUsViewController.h */,
 				F5F36FBC1923B8C9005B9BC6 /* AboutUsViewController.m */,
-				F5A48EF219250FFD004F608D /* MapLocationsViewController.h */,
-				F5A48EF319250FFD004F608D /* MapLocationsViewController.m */,
-				F580CAB51925A21300FF3309 /* PlaceAnnotation.h */,
-				F580CAB61925A21300FF3309 /* PlaceAnnotation.m */,
+				3BEE45131923F04500C59254 /* GSDRPreventativeMeasuresViewController.h */,
+				3BEE45141923F04500C59254 /* GSDRPreventativeMeasuresViewController.m */,
 				3B55459E1917E40B00394FC1 /* Supporting Files */,
 			);
 			path = GraniteStateDogRecovery;
@@ -208,20 +186,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F5A48EE019241FFB004F608D /* icons */ = {
-			isa = PBXGroup;
-			children = (
-				F5A48EE7192420C8004F608D /* icon_58.png */,
-				F5A48EE8192420C8004F608D /* icon_80.png */,
-				F5A48EE9192420C8004F608D /* icon_120.png */,
-			);
-			name = icons;
-			sourceTree = "<group>";
-		};
 		F5F36FB51923931A005B9BC6 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				F5A48EDE19240C4C004F608D /* dog.png */,
 				F5F36FC61923D930005B9BC6 /* YouTube_29x29.png */,
 				F5F36FC71923D930005B9BC6 /* YouTube_29x29@2x.png */,
 				F5F36FC21923D738005B9BC6 /* Twitter_29x29.png */,
@@ -239,7 +206,6 @@
 			children = (
 				3B5545A91917E40B00394FC1 /* Main.storyboard */,
 				3B5545B21917E40B00394FC1 /* Images.xcassets */,
-				F5A48EE019241FFB004F608D /* icons */,
 				F5F36FB51923931A005B9BC6 /* images */,
 			);
 			name = Resources;
@@ -293,13 +259,6 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Granite State Dog Recovery";
 				TargetAttributes = {
-					3B5545931917E40B00394FC1 = {
-						SystemCapabilities = {
-							com.apple.iOS = {
-								enabled = 1;
-							};
-						};
-					};
 					3B5545B71917E40B00394FC1 = {
 						TestTargetID = 3B5545931917E40B00394FC1;
 					};
@@ -330,17 +289,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5F36FC91923D930005B9BC6 /* YouTube_29x29@2x.png in Resources */,
-				F5A48EEC192420C8004F608D /* icon_120.png in Resources */,
 				F5F36FB919239350005B9BC6 /* banner@2x.jpg in Resources */,
 				F5D6BEC31918A1E2004444D3 /* Main.storyboard in Resources */,
-				F5A48EEA192420C8004F608D /* icon_58.png in Resources */,
 				F5F36FC01923CCF7005B9BC6 /* Facebook_29x29.png in Resources */,
 				F5F36FC51923D738005B9BC6 /* Twitter_29x29@2x.png in Resources */,
-				F5A48EEB192420C8004F608D /* icon_80.png in Resources */,
 				3B5545B31917E40B00394FC1 /* Images.xcassets in Resources */,
 				F5F36FC41923D738005B9BC6 /* Twitter_29x29.png in Resources */,
 				F5F36FC81923D930005B9BC6 /* YouTube_29x29.png in Resources */,
-				F5A48EDF19240C4C004F608D /* dog.png in Resources */,
 				F5F36FC11923CCF7005B9BC6 /* Facebook_29x29@2x.png in Resources */,
 				F5D6BEBE19189EB6004444D3 /* InfoPlist.strings in Resources */,
 				F5F36FBA19239350005B9BC6 /* banner.jpg in Resources */,
@@ -366,8 +321,6 @@
 				3B5545A81917E40B00394FC1 /* GSDRAppDelegate.m in Sources */,
 				F5D6BEB919189E03004444D3 /* main.m in Sources */,
 				F5D6BEC21918A143004444D3 /* GSDRMainViewController.m in Sources */,
-				F580CAB71925A21300FF3309 /* PlaceAnnotation.m in Sources */,
-				F5A48EF419250FFD004F608D /* MapLocationsViewController.m in Sources */,
 				F5A48EDB1923ED6D004F608D /* LostDogFormViewController.m in Sources */,
 				3BEE45151923F04500C59254 /* GSDRPreventativeMeasuresViewController.m in Sources */,
 			);
