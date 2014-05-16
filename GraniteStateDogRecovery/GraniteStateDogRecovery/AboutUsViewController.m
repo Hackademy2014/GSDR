@@ -77,7 +77,13 @@
  */
 - (IBAction)callPhone
 {
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://18556395678"]];
+    UIAlertView * alert = [[UIAlertView alloc] initWithTitle:@"Call GSDR?"
+                                                     message:@"Would you like to call 1-855-639-5678?"
+                                                    delegate:self cancelButtonTitle:@"Cancel"
+                                           otherButtonTitles:@"Call", nil];
+    
+    alert.alertViewStyle = UIAlertViewStyleDefault;
+    [alert show];
 }
 
 
@@ -87,6 +93,14 @@
 - (IBAction)emailNonProfit
 {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"mailto://Lost@granitestatedogrecovery.com"]];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
+    
+    if (buttonIndex == 1)
+    {
+        [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"tel://18556395678"]];
+    }
 }
 
 /*
